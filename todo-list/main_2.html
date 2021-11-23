@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <!--css : 선택자 class, id 를 통해서 꾸미기
+        1. 바로 body 속성에 style 로 입력
+        2. head 안에 작성 가능
+        3. .css 별도 파일로 작성 가능
+        -->
+
+        <!--.은 class 부를 때, #은 id를 부를 때
+        <style>
+            #title {
+                color:red
+            }
+            .title2 {
+                font-size: 150%;
+            }
+        </style>
+    -->
+    <!--.은 같은 폴더 경로 지정 ..은 상위 폴더-->
+    <link rel="stylesheet" href="./main.css">
+
+
+    </head>
+    <body>
+        <!--class는 복수 가능 id는 고유 이름-->
+        <p class="title title2 title3" id="title">긴~ 문장을 작성</p>
+
+    </body>
+</html>
